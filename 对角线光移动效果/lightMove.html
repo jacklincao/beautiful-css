@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>动画</title>
+	<style>
+		.parrent {
+			position: relative;
+			top: 100px;
+    		text-align: center;
+		}
+		.rolled {
+			position: absolute;
+		    height: 200px;
+		    width: 20px;
+		    top: 0;
+		    left: 460px;
+
+		    background: -moz-linear-gradient(left,rgba(255,255,255,0)0,rgba(255,255,255,.7)50%,rgba(255,255,255,0)100%);
+			background: -webkit-gradient(linear,left top,right top,color-stop(0%,rgba(255,255,255,0)),color-stop(50%,rgba(255,255,255,.7)),color-stop(100%,rgba(255,255,255,0)));
+			background: -webkit-linear-gradient(left,rgba(255,255,255,0)0,rgba(255,255,255,.7)50%,rgba(255,255,255,0)100%);
+			background: -o-linear-gradient(left,rgba(255,255,255,0)0,rgba(255,255,255,.7)50%,rgba(255,255,255,0)100%);
+
+			transform: skewX(-45deg);
+
+			-webkit-animation:rolled 2.5s .2s ease both infinite;
+			-moz-animation:rolled 2.5s .2s ease both infinite;
+			-o-animation:rolled 2.5s .2s ease both infinite;
+			-ms-animation:rolled 2.5s .2s ease both infinite;
+		}
+
+		@keyframes rolled {
+			from {
+				left: 560px;
+			}
+			to {
+				left: 960px;
+			}
+		}
+
+
+	</style>
+</head>
+<body>
+	<div class="parrent">
+		<img src="22211197.png" alt="">
+		<div class="rolled"></div>
+	</div>
+</body>
+</html>
