@@ -1,0 +1,29 @@
+html, body {
+    margin: 0px;
+}
+
+section {
+    height: 100vh;
+    background: rgba(0, 0, 0, .7);
+    line-height: 100vh;
+    text-align: center;
+    user-select: none;
+}
+
+.g-img {
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center center;
+}
+
+.g-img1 {
+    background-image: url(./imgs/demo1.jpg);
+}
+
+.g-img2 {
+    background-image: url(./imgs/demo2.jpg);
+}
+
+.g-img3 {
+    background-image: url(./imgs/demo3.jpg);
+}
