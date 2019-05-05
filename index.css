@@ -23,3 +23,12 @@ ul>li>a {
 ul>li:hover, ul>li>a:hover{
   color: lightblue;
 }
+
+.title {
+  margin: 0;
+  margin-left: 20px;
+}
+
+.box {
+  margin-left: 20px;
+}
